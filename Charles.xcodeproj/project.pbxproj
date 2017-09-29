@@ -13,28 +13,14 @@
 		709484181F7B8AD000408C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709484171F7B8AD000408C32 /* Assets.xcassets */; };
 		7094841B1F7B8AD000408C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709484191F7B8AD000408C32 /* LaunchScreen.storyboard */; };
 		7094841E1F7B8AD000408C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7094841D1F7B8AD000408C32 /* main.m */; };
-		709484281F7B8AD000408C32 /* CharlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709484271F7B8AD000408C32 /* CharlesTests.m */; };
-		709484331F7B8AD000408C32 /* CharlesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709484321F7B8AD000408C32 /* CharlesUITests.m */; };
+		709484441F7B8B0600408C32 /* CharlersHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 709484401F7B8B0500408C32 /* CharlersHUD.m */; };
+		709484451F7B8B0600408C32 /* UIView+Charles.m in Sources */ = {isa = PBXBuildFile; fileRef = 709484421F7B8B0600408C32 /* UIView+Charles.m */; };
+		709484491F7B909600408C32 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 709484481F7B909600408C32 /* UIView+Toast.m */; };
+		928538459C4975E08692C9ED /* libPods-Charles.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB557AE4361FC9851ADE78B6 /* libPods-Charles.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		709484241F7B8AD000408C32 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 709484031F7B8AD000408C32 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7094840A1F7B8AD000408C32;
-			remoteInfo = Charles;
-		};
-		7094842F1F7B8AD000408C32 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 709484031F7B8AD000408C32 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7094840A1F7B8AD000408C32;
-			remoteInfo = Charles;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		4206EBBF7B8D3452DC958BB2 /* Pods-Charles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Charles/Pods-Charles.release.xcconfig"; sourceTree = "<group>"; };
 		7094840B1F7B8AD000408C32 /* Charles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7094840E1F7B8AD000408C32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7094840F1F7B8AD000408C32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +31,15 @@
 		7094841A1F7B8AD000408C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7094841C1F7B8AD000408C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7094841D1F7B8AD000408C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		709484231F7B8AD000408C32 /* CharlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		709484271F7B8AD000408C32 /* CharlesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharlesTests.m; sourceTree = "<group>"; };
-		709484291F7B8AD000408C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7094842E1F7B8AD000408C32 /* CharlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		709484321F7B8AD000408C32 /* CharlesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharlesUITests.m; sourceTree = "<group>"; };
-		709484341F7B8AD000408C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709484401F7B8B0500408C32 /* CharlersHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharlersHUD.m; sourceTree = "<group>"; };
+		709484411F7B8B0500408C32 /* CharlersHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharlersHUD.h; sourceTree = "<group>"; };
+		709484421F7B8B0600408C32 /* UIView+Charles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Charles.m"; sourceTree = "<group>"; };
+		709484431F7B8B0600408C32 /* UIView+Charles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Charles.h"; sourceTree = "<group>"; };
+		709484461F7B8B1E00408C32 /* PodFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		709484471F7B909500408C32 /* UIView+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		709484481F7B909600408C32 /* UIView+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		9E4B7C14A90C56F4BDAC77AC /* Pods-Charles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Charles/Pods-Charles.debug.xcconfig"; sourceTree = "<group>"; };
+		CB557AE4361FC9851ADE78B6 /* libPods-Charles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Charles.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		709484201F7B8AD000408C32 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7094842B1F7B8AD000408C32 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				928538459C4975E08692C9ED /* libPods-Charles.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +57,11 @@
 		709484021F7B8AD000408C32 = {
 			isa = PBXGroup;
 			children = (
+				709484461F7B8B1E00408C32 /* PodFile */,
 				7094840D1F7B8AD000408C32 /* Charles */,
-				709484261F7B8AD000408C32 /* CharlesTests */,
-				709484311F7B8AD000408C32 /* CharlesUITests */,
 				7094840C1F7B8AD000408C32 /* Products */,
+				C2D50749F5A59D41950A3963 /* Pods */,
+				FBDC6AADA2A4298DFD0EF985 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				7094840B1F7B8AD000408C32 /* Charles.app */,
-				709484231F7B8AD000408C32 /* CharlesTests.xctest */,
-				7094842E1F7B8AD000408C32 /* CharlesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +78,12 @@
 			children = (
 				7094840E1F7B8AD000408C32 /* AppDelegate.h */,
 				7094840F1F7B8AD000408C32 /* AppDelegate.m */,
+				709484411F7B8B0500408C32 /* CharlersHUD.h */,
+				709484401F7B8B0500408C32 /* CharlersHUD.m */,
+				709484431F7B8B0600408C32 /* UIView+Charles.h */,
+				709484421F7B8B0600408C32 /* UIView+Charles.m */,
+				709484471F7B909500408C32 /* UIView+Toast.h */,
+				709484481F7B909600408C32 /* UIView+Toast.m */,
 				709484111F7B8AD000408C32 /* ViewController.h */,
 				709484121F7B8AD000408C32 /* ViewController.m */,
 				709484141F7B8AD000408C32 /* Main.storyboard */,
@@ -114,22 +95,21 @@
 			path = Charles;
 			sourceTree = "<group>";
 		};
-		709484261F7B8AD000408C32 /* CharlesTests */ = {
+		C2D50749F5A59D41950A3963 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				709484271F7B8AD000408C32 /* CharlesTests.m */,
-				709484291F7B8AD000408C32 /* Info.plist */,
+				9E4B7C14A90C56F4BDAC77AC /* Pods-Charles.debug.xcconfig */,
+				4206EBBF7B8D3452DC958BB2 /* Pods-Charles.release.xcconfig */,
 			);
-			path = CharlesTests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		709484311F7B8AD000408C32 /* CharlesUITests */ = {
+		FBDC6AADA2A4298DFD0EF985 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				709484321F7B8AD000408C32 /* CharlesUITests.m */,
-				709484341F7B8AD000408C32 /* Info.plist */,
+				CB557AE4361FC9851ADE78B6 /* libPods-Charles.a */,
 			);
-			path = CharlesUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709484371F7B8AD000408C32 /* Build configuration list for PBXNativeTarget "Charles" */;
 			buildPhases = (
+				C7386A971490C53A222C4A9C /* [CP] Check Pods Manifest.lock */,
 				709484071F7B8AD000408C32 /* Sources */,
 				709484081F7B8AD000408C32 /* Frameworks */,
 				709484091F7B8AD000408C32 /* Resources */,
+				9E3C78A5B0F027FAFF3EE431 /* [CP] Embed Pods Frameworks */,
+				1D86D09EC93734FE65A926D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,42 +134,6 @@
 			productName = Charles;
 			productReference = 7094840B1F7B8AD000408C32 /* Charles.app */;
 			productType = "com.apple.product-type.application";
-		};
-		709484221F7B8AD000408C32 /* CharlesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7094843A1F7B8AD000408C32 /* Build configuration list for PBXNativeTarget "CharlesTests" */;
-			buildPhases = (
-				7094841F1F7B8AD000408C32 /* Sources */,
-				709484201F7B8AD000408C32 /* Frameworks */,
-				709484211F7B8AD000408C32 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				709484251F7B8AD000408C32 /* PBXTargetDependency */,
-			);
-			name = CharlesTests;
-			productName = CharlesTests;
-			productReference = 709484231F7B8AD000408C32 /* CharlesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7094842D1F7B8AD000408C32 /* CharlesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7094843D1F7B8AD000408C32 /* Build configuration list for PBXNativeTarget "CharlesUITests" */;
-			buildPhases = (
-				7094842A1F7B8AD000408C32 /* Sources */,
-				7094842B1F7B8AD000408C32 /* Frameworks */,
-				7094842C1F7B8AD000408C32 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				709484301F7B8AD000408C32 /* PBXTargetDependency */,
-			);
-			name = CharlesUITests;
-			productName = CharlesUITests;
-			productReference = 7094842E1F7B8AD000408C32 /* CharlesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,16 +147,6 @@
 					7094840A1F7B8AD000408C32 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					709484221F7B8AD000408C32 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 7094840A1F7B8AD000408C32;
-					};
-					7094842D1F7B8AD000408C32 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 7094840A1F7B8AD000408C32;
 					};
 				};
 			};
@@ -227,8 +164,6 @@
 			projectRoot = "";
 			targets = (
 				7094840A1F7B8AD000408C32 /* Charles */,
-				709484221F7B8AD000408C32 /* CharlesTests */,
-				7094842D1F7B8AD000408C32 /* CharlesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,63 +179,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		709484211F7B8AD000408C32 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7094842C1F7B8AD000408C32 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D86D09EC93734FE65A926D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Charles/Pods-Charles-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charles/Pods-Charles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3C78A5B0F027FAFF3EE431 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charles/Pods-Charles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7386A971490C53A222C4A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Charles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		709484071F7B8AD000408C32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709484491F7B909600408C32 /* UIView+Toast.m in Sources */,
 				709484131F7B8AD000408C32 /* ViewController.m in Sources */,
+				709484441F7B8B0600408C32 /* CharlersHUD.m in Sources */,
 				7094841E1F7B8AD000408C32 /* main.m in Sources */,
 				709484101F7B8AD000408C32 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7094841F1F7B8AD000408C32 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				709484281F7B8AD000408C32 /* CharlesTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7094842A1F7B8AD000408C32 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				709484331F7B8AD000408C32 /* CharlesUITests.m in Sources */,
+				709484451F7B8B0600408C32 /* UIView+Charles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		709484251F7B8AD000408C32 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7094840A1F7B8AD000408C32 /* Charles */;
-			targetProxy = 709484241F7B8AD000408C32 /* PBXContainerItemProxy */;
-		};
-		709484301F7B8AD000408C32 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7094840A1F7B8AD000408C32 /* Charles */;
-			targetProxy = 7094842F1F7B8AD000408C32 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		709484141F7B8AD000408C32 /* Main.storyboard */ = {
@@ -428,6 +377,7 @@
 		};
 		709484381F7B8AD000408C32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E4B7C14A90C56F4BDAC77AC /* Pods-Charles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +392,7 @@
 		};
 		709484391F7B8AD000408C32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4206EBBF7B8D3452DC958BB2 /* Pods-Charles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,64 +402,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Harute.Charles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		7094843B1F7B8AD000408C32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6QU7TW49RY;
-				INFOPLIST_FILE = CharlesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Harute.CharlesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charles.app/Charles";
-			};
-			name = Debug;
-		};
-		7094843C1F7B8AD000408C32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6QU7TW49RY;
-				INFOPLIST_FILE = CharlesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Harute.CharlesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charles.app/Charles";
-			};
-			name = Release;
-		};
-		7094843E1F7B8AD000408C32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6QU7TW49RY;
-				INFOPLIST_FILE = CharlesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Harute.CharlesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Charles;
-			};
-			name = Debug;
-		};
-		7094843F1F7B8AD000408C32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6QU7TW49RY;
-				INFOPLIST_FILE = CharlesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Harute.CharlesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Charles;
 			};
 			name = Release;
 		};
@@ -529,24 +422,6 @@
 			buildConfigurations = (
 				709484381F7B8AD000408C32 /* Debug */,
 				709484391F7B8AD000408C32 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7094843A1F7B8AD000408C32 /* Build configuration list for PBXNativeTarget "CharlesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7094843B1F7B8AD000408C32 /* Debug */,
-				7094843C1F7B8AD000408C32 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7094843D1F7B8AD000408C32 /* Build configuration list for PBXNativeTarget "CharlesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7094843E1F7B8AD000408C32 /* Debug */,
-				7094843F1F7B8AD000408C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,27 +2,12 @@
 //  UIView+CharlesHUD.h
 //  CodeDemo
 //
-//  Created by 柴智权 on 2017/9/27.
-//  Copyright © 2017年 柴智权. All rights reserved.
+//  Created by saizhq on 2017/9/27.
+//  Copyright © 2017年 saizhq. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-NSString * CSToastPositionTop       = @"CSToastPositionTop";
-NSString * CSToastPositionCenter    = @"CSToastPositionCenter";
-NSString * CSToastPositionBottom    = @"CSToastPositionBottom";
-
-// Keys for values associated with toast views
-static const NSString * CSToastTimerKey             = @"CSToastTimerKey";
-static const NSString * CSToastDurationKey          = @"CSToastDurationKey";
-static const NSString * CSToastPositionKey          = @"CSToastPositionKey";
-static const NSString * CSToastCompletionKey        = @"CSToastCompletionKey";
-
-// Keys for values associated with self
-static const NSString * CSToastActiveToastViewKey   = @"CSToastActiveToastViewKey";
-static const NSString * CSToastActivityViewKey      = @"CSToastActivityViewKey";
-static const NSString * CSToastQueueKey             = @"CSToastQueueKey";
 
 @interface UIView (Charles)
 
@@ -51,7 +36,6 @@ static const NSString * CSToastQueueKey             = @"CSToastQueueKey";
  *  只显示一个加载框
  */
 + (void)HUDShowLoading;
-
 /**
  *  隐藏加载框（所有类型的加载框 都可以通过这个方法 隐藏）
  */
@@ -74,12 +58,32 @@ static const NSString * CSToastQueueKey             = @"CSToastQueueKey";
 
 @end
 
-@interface UIView (Toast)
+@interface UIView (CharlesT)
 
-- (void)makeToast:(NSString *)message;
+/**
+ *  Toast 默认2秒提示
+ *
+ *  @param message 自定义的消息
+ */
+- (void)CharlesToast:(NSString *)message;
 
-- (void)makeToast:(NSString *)message duration:(NSTimeInterval)duration;
+/**
+ *  Toast 自定义消失时间
+ *
+ *  @param message 自定义的消息
+ *  @param duration 消失时间
+ */
+- (void)CharlesToast:(NSString *)message duration:(NSTimeInterval)duration;
 
+/**
+ *  带图片的Toast 
+ *
+ *  @param message 自定义的消息
+ *  @param duration 消失时间
+ *  @param title 标题
+ *  @param image 图片
+ */
+- (void)CharlesToast:(NSString *)message duration:(NSTimeInterval)duration title:(NSString*)title image:(UIImage *)image;
 @end
 
 

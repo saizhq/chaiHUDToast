@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  Charles
 //
-//  Created by 柴智权 on 2017/9/27.
-//  Copyright © 2017年 柴智权. All rights reserved.
+//  Created by saizhq on 2017/9/27.
+//  Copyright © 2017年 saizhq. All rights reserved.
 //
 
 #import "AppDelegate.h"
